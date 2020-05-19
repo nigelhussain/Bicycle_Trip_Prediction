@@ -1,0 +1,16 @@
+Here are a list of dependencies that need to be installed to successfully run everything.
+(I used pip to install everything)
+
+pandas
+numpy
+haversine
+Matplotlib 
+time
+os
+lightgbm (https://github.com/Microsoft/LightGBM/tree/master/python-package) I used pip to install the package
+tensorflow and keras
+sklearn
+datetime
+collections
+os.environ['KMP_DUPLICATE_LIB_OK']='True' This was required to get keras to train properly
+%matplotlib inline This needs to be run to properly display matplotlib graphs
